@@ -1,23 +1,31 @@
 body {
-.major-assemblies-list{
-    .mui-table-format{
-        tbody{
-            td,th{
-                table,th, tr, td{
-                    border: none !important;
-                    background: transparent !important;
+    .post-list{
+        .mui-table-format{
+            tbody{
+                tr{
+                  &:hover{
+                    background: #eff0f5 !important;
+                  }
+                  &:nth-child(odd){
+                    background: #fff;
+                  }
+                  &:nth-child(even){
+                    background: #E6EBFB;
+                  }
+                  &.Mui-selected{
+                    background: rgba(245, 0, 87, 0.08);
+                  }
+                  td{
+                    word-break: break-word;
+                    padding: 5px 10px;
+                  }
                 }
-            }
-            td{
-                word-wrap: break-word;
-                .MuiChip-label{
-                    font-size: 11px;
-                    max-width: 130px;
-                    display: inline-block;
-                    word-wrap: break-word;
+              }
+              thead {
+                th{
+                    background: #98a1cc !important;   
                 }
-            }
+              }
         }
     }
-}
-}
+    }
