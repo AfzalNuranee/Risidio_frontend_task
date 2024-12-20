@@ -1,0 +1,23 @@
+body {
+.major-assemblies-list{
+    .mui-table-format{
+        tbody{
+            td,th{
+                table,th, tr, td{
+                    border: none !important;
+                    background: transparent !important;
+                }
+            }
+            td{
+                word-wrap: break-word;
+                .MuiChip-label{
+                    font-size: 11px;
+                    max-width: 130px;
+                    display: inline-block;
+                    word-wrap: break-word;
+                }
+            }
+        }
+    }
+}
+}
