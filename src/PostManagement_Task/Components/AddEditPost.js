@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Dialog, DialogTitle, DialogContent, DialogActions, TextField, Button, Grid, Tooltip, CircularProgress } from '@material-ui/core';
+import { Dialog, DialogTitle, DialogContent, DialogActions, TextField, Button, Grid,} from '@material-ui/core';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import { postObj } from '.';
 function AddEditPost({ postitem, closeModal, modal, savePost }) {
