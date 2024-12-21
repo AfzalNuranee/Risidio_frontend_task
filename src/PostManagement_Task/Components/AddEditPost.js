@@ -9,6 +9,7 @@ function AddEditPost({ postitem, closeModal, modal, savePost }) {
         setpostData({
             ...postData,
             [key]: value
+            
         })
 
     }
