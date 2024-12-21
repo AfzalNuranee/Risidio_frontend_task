@@ -1,0 +1,80 @@
+body{
+    .marketplace {
+        padding: 30px;
+        .trending-section {
+          background-color: #e3e8f2;
+          padding: 16px;
+          border-radius: 20px;
+          margin-bottom: 30px;
+          .trending-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            .trending-now {
+              color: #3f51b5;
+            }
+            .trending-title {
+              font-weight: 600;
+              margin: 8px 0;
+            }
+            .trending-artist {
+              display: flex;
+              align-items: center;
+              margin: 16px 0;
+      
+              .avatar {
+                margin-right: 8px;
+              }
+            }
+            .trending-actions {
+              display: flex;
+              gap: 16px;
+              margin-top: 16px;
+      
+              .buy-button {
+                background-color: #3f51b5;
+                color: #fff;
+                border-radius: 18px;
+                width:120px
+              }
+              .collection-button {
+                border-radius: 18px;
+              }
+            }
+          }
+          .trending-image {
+            border-radius: 8px;
+            width: 100%;
+            height: 90%;
+          }
+        }
+      
+        // Collections Section
+        .collections-section {
+          .collections-title {
+            font-weight: bold;
+            margin-bottom: 24px;
+          }
+          .collection-card {
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      
+            .collection-media {
+              height: 180px;
+              border-radius: 8px 8px 0 0;
+            }
+            .collection-footer {
+              display: flex;
+              align-items: center;
+              margin-top: 16px;
+      
+              .avatar {
+                margin-right: 8px;
+              }
+            }
+          }
+        }
+      }
+      
+}
