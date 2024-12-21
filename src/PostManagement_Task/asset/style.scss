@@ -28,4 +28,24 @@ body {
               }
         }
     }
+    .page-loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 9999;
+      background: rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      cursor: not-allowed;
+      span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        img {
+          width: 100px;
+        }
+      }
+    }
     }
